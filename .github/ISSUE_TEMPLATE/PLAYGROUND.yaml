@@ -52,7 +52,7 @@ body:
   - type: input
     id: contact
     attributes:
-      label: Contact Details - Optional
+      label: Contact Details (optional)
       description: If you agree to be contacted should we need more info, please leave your email. Note that your email will be visible in this report.
       placeholder: ex. email@example.com
     validations:
