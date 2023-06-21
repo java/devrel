@@ -15,7 +15,7 @@ body:
     id: what-happened
     attributes:
       label: What happened?
-      description: Also tell us, what did you expect to happen?
+      description: Also tell us, what did you expect to happen? Make sure to inlcude any relevant information.
       placeholder: Tell us what you see!
       value: "An issue happened!"
     validations:
@@ -44,11 +44,6 @@ body:
         - Microsoft Edge
         - Brave
         - Other
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant output
-      description: Please copy and paste any relevant information.
   - type: input
     id: contact
     attributes:
