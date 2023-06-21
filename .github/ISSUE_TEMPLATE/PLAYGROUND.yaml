@@ -11,14 +11,6 @@ body:
         :warning: If you believe you have found a security vulnerability in the Java Playground please report it through [Oracle's Security Vulnerability reporting process](https://www.oracle.com/corporate/security-practices/assurance/vulnerability/reporting.html).
         
         Thanks for taking the time to fill out this report!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details - Optional
-      description: If you agree to be contacted should we need more info, please leave your email.
-      placeholder: ex. email@example.com
-    validations:
-      required: false
   - type: textarea
     id: what-happened
     attributes:
@@ -57,3 +49,11 @@ body:
     attributes:
       label: Relevant output
       description: Please copy and paste any relevant information.
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details - Optional
+      description: If you agree to be contacted should we need more info, please leave your email. Note that your email will be visible in this report.
+      placeholder: ex. email@example.com
+    validations:
+      required: false
