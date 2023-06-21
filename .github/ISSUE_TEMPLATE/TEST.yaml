@@ -14,7 +14,7 @@ body:
     id: contact
     attributes:
       label: Contact Details
-      description: How can we get in touch with you if we need more info?
+      description: Optional - If you agree to be contacted should we need more info, please leave your email.
       placeholder: ex. email@example.com
     validations:
       required: false
