@@ -15,8 +15,8 @@ body:
     id: what-happened
     attributes:
       label: What happened?
-      description: Also tell us, what did you expect to happen?
-      Make sure to inlcude any relevant information. You can also upload screeshots in this area.
+      description: "Also tell us, what did you expect to happen?
+      Make sure to inlcude any relevant information. You can also upload screeshots in this area."
       placeholder: Tell us what you see!
       value: "An issue happened!"
     validations:
