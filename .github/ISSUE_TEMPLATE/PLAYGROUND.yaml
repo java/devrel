@@ -8,13 +8,13 @@ body:
   - type: markdown
     attributes:
       value: |     
-        If you believe you have found a security vulnerability in the Java PLayground please report it through [Oracle's Security Vulnerability reporting process](https://www.oracle.com/corporate/security-practices/assurance/vulnerability/reporting.html).
+        If you believe you have found a security vulnerability in the Java Playground please report it through [Oracle's Security Vulnerability reporting process](https://www.oracle.com/corporate/security-practices/assurance/vulnerability/reporting.html).
         Thanks for taking the time to fill out this bug report!
   - type: input
     id: contact
     attributes:
-      label: Contact Details
-      description: Optional - If you agree to be contacted should we need more info, please leave your email.
+      label: Contact Details - Optional
+      description: If you agree to be contacted should we need more info, please leave your email.
       placeholder: ex. email@example.com
     validations:
       required: false
@@ -24,7 +24,7 @@ body:
       label: What happened?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: "An issue happened!"
     validations:
       required: true
   - type: dropdown
@@ -54,6 +54,5 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      label: Relevant output
+      description: Please copy and paste any relevant information.
