@@ -1,5 +1,5 @@
-name: Bug Report
-description: File a bug report
+name: Java Playground issue
+description: File an issue
 title: "[Bug]: "
 labels: ["bug", "playground"]
 assignees:
@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |     
-        If you believe you have found a security vulnerability in the Java PLayground please report the issue through [Oracle's Security Vulnerability reporting process](https://www.oracle.com/corporate/security-practices/assurance/vulnerability/reporting.html).
+        If you believe you have found a security vulnerability in the Java PLayground please report it through [Oracle's Security Vulnerability reporting process](https://www.oracle.com/corporate/security-practices/assurance/vulnerability/reporting.html).
         Thanks for taking the time to fill out this bug report!
   - type: input
     id: contact
