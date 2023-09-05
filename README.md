@@ -4,7 +4,7 @@ This repository can be used to [report issues and suggestions](https://github.co
 
 You can also reach us via java_devrel_grp@oracle.com.
 
-⚠️ If you believe you have found a security vulnerability, please report it through [Oracle's Security Vulnerability reporting channels](https://www.oracle.com/corporate/security-practices/assurance/vulnerability/reporting.html).
+⚠️ If you believe you have found a security vulnerability, please only report it through [Oracle's Security Vulnerability reporting channels](https://www.oracle.com/corporate/security-practices/assurance/vulnerability/reporting.html).
 
 -------
 
