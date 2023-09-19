@@ -7,7 +7,7 @@ assignees:
 body:
   - type: markdown
     attributes:
-      Thanks for taking the time to fill out this report.
+      value: Thanks for taking the time to fill out this report.
   - type: textarea
     id: what-happened
     attributes:
