@@ -1,5 +1,5 @@
 name: Java Playground issue/suggestion
-description: File an issue or a suggestion related to the Java Playground. Please don't use this issue tracker to report potential vulnerabilities.
+description: Issue(s) or suggestion(s) related to the Java Playground. Please don't use this issue tracker to report potential vulnerabilities.
 title: "[Bug]: "
 labels: ["bug", "playground"]
 assignees:
@@ -16,7 +16,7 @@ body:
     attributes:
       label: What happened?
       description: "Also tell us, what did you expect to happen? Make sure to inlcude any relevant information. If needed, you can upload screeshot(s) in this area."
-      placeholder: Tell us what you see!
+      placeholder: Please, tell us what you see.
       value: "An issue happened!"
     validations:
       required: true
