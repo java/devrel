@@ -1,0 +1,18 @@
+name: Java DevRel Websites
+description: Fill issues related to https//inside.java, https://dev.java, etc.
+title: "[issue]:"
+body:
+  - type: markdown
+    attributes:
+      value: |     
+        If you believe you have found a security vulnerability please report it through [Oracle's Security Vulnerability reporting process](https://www.oracle.com/corporate/security-practices/assurance/vulnerability/reporting.html).
+        Thanks for taking the time to fill out this bug report!
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true        
+
