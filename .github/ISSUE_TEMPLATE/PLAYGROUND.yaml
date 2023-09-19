@@ -1,5 +1,5 @@
-name: Java Playground issue
-description: File an issue or a suggestion related to the Java Playground. Please don't use this channel to report potential vulnerability.
+name: Java Playground issue/suggestion
+description: File an issue or a suggestion related to the Java Playground. Please don't use this issue tracker to report potential vulnerabilities.
 title: "[Bug]: "
 labels: ["bug", "playground"]
 assignees:
