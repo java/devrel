@@ -1,18 +1,45 @@
 name: Java DevRel Websites
-description: Fill issues related to https//inside.java, https://dev.java, etc.
-title: "[issue]:"
+description: Issue(s) or suggestion(s) related to Java DevRel sites, ex. https://inside.java, https://dev.java, etc.
+title: "[Web Issue]:"
+labels: ["webiste"]
+assignees:
+  - octocat
 body:
   - type: markdown
     attributes:
       value: |     
-        If you believe you have found a security vulnerability please report it through [Oracle's Security Vulnerability reporting process](https://www.oracle.com/corporate/security-practices/assurance/vulnerability/reporting.html).
-        Thanks for taking the time to fill out this bug report!
-  - type: checkboxes
-    id: terms
+        :warning: If you believe you have found a security vulnerability in the Java Playground please report it through [Oracle's Security Vulnerability reporting process](https://www.oracle.com/corporate/security-practices/assurance/vulnerability/reporting.html).
+        
+        Thanks for taking the time to fill out this report!
+  - type: textarea
+    id: what-happened
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      label: What happened?
+      description: "Also tell us, what did you expect to happen? Make sure to inlcude any relevant information. If needed, you can upload screeshot(s) in this area."
+      placeholder: Please, tell us what you see and on which site.
+      value: "An issue happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
       options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true        
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+        - Brave
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details (optional)
+      description: If you agree to be contacted should we need more info, please leave your email. Note that your email will be visible in this report.
+      placeholder: ex. email@example.com
+    validations:
+      required: false
 
