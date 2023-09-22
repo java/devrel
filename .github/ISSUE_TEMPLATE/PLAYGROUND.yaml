@@ -52,3 +52,12 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
+  - type: textarea
+    id: detail
+    attributes:
+      label: Additional information
+      description: "Ignore this field if it's empty."
+      value: "Leave blank"
+    validations:
+      required: false
+
