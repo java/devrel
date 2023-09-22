@@ -52,7 +52,7 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
-  - type: textarea
+  - type: input
     id: detail
     attributes:
       label: Additional information
