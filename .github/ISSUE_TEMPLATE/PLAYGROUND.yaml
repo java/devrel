@@ -1,7 +1,7 @@
 name: Java Playground
 description: Issue(s) or suggestion(s) related to the Java Playground. Please don't use this issue tracker to report potential vulnerabilities.
-title: "[Bug]: "
-labels: ["bug", "playground"]
+title: ""
+labels: ["playground"]
 assignees:
   - octocat
 body:

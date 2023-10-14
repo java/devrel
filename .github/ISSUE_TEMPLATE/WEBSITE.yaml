@@ -1,7 +1,7 @@
 name: Java DevRel Websites
 description: Issue(s) and suggestion(s) related to Java DevRel websites, ex. https://inside.java, https://dev.java, etc.
-title: "[Web Issue]:"
-labels: ["webiste"]
+title: "[Web]:"
+labels: ["Web"]
 assignees:
   - octocat
 body:
