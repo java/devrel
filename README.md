@@ -1,12 +1,12 @@
 # Java DevRel Feedback
 
-This issue tracker can be used report issues and suggestions around the various Java Platfrom Group DevRel initiatives.
+This issue tracker can be used to report issues and suggestions around the various Java Platform Group DevRel initiatives.
 You can also contact us using java_devrel_grp@oracle.com
 
 
 ### Java Playground
 
-The [Java Playground](https://dev.java/playground) is an online tool that one can use to explore new Java languages feature. No setup required, just type your Java snippet and run it!
+The [Java Playground](https://dev.java/playground) is an online tool that one can use to explore new Java language features. No setup required, just type your Java snippet and run it!
 
 Click [here](https://github.com/java/devrel/issues/new?assignees=octocat&labels=bug%2Cplayground&projects=&template=PLAYGROUND.yaml&title=%5BBug%5D%3A+) to report a suggestion and/or an issue related to the Playground.
 
